@@ -1,24 +1,13 @@
-# Tidy Data Project
-# Andrea De Angelis
-# 7th of June 2019
+#CE 1 
 
-# This scripts sets up the data analysis' project:
-# - installing (or loading) the needed packages 
-# - sourcing the needed functions
+#Team Filippone-Pozzoli
 
-# Credits: part of the code is from Kruschke (2014) Doing Bayesian Data
-# Analysis. A Tutorial with R, JAGS, and Stan.
-# browseURL("https://www.amazon.de/Doing-Bayesian-Data-Analysis-Tutorial/dp/0124058884")
+#This script is the set up for the data analysis of the project:
 
-# Installing packages ---------------------------------------------------------------------------------
+# load the package----------------------------------------------
 
-want = c("here","stargazer","rio","lme4")   # list of required packages
-have = want %in% rownames(installed.packages())
-if ( any(!have) ) { install.packages( want[!have] ) }
-rm(have, want)
+library(rio)
 
-# Attaching the needed packages (uncomment to run)
-# lapply(want, library, character.only = TRUE)
-
-# Sourcing needed functions ---------------------------------------------------------------------------
-source(here::here("src","00_functions.R"))
+# importing the original dataset: ------------------------------
+data <- import("/Users/cristinapozzoli/Desktop/CE1_Filippone_Pozzoli/data_orig/ESS8e02_2.dta",
+               encoding = "UTF-8")
