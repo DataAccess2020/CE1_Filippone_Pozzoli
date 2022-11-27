@@ -9,11 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## THE PERCEPTION OF CLIMATE CHANGE: ARE YOUNG PEOPLE MORE WORRIED?
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## INTRODUCTION
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Climate change is not only an issue that is putting our planet and our survival in danger, but it can also have a negative impact on mental health. In fact, there is a specific term for mental health issues related to the climate crisis: “eco-anxiety”, defined as anxiety or worry one might feel about climate change and its effects (Clayton, 2020).
+Some subjects may be more prone than others to experience such mental distress. It seems logic to think that young people probably feel more anxious about climate change, because they will be the ones dealing with its consequences for the longer time and because their future is at stake. Several studies support this hypothesis: children and young people seem to be more aware of the danger of the climate crisis and tend to experience related anxiety, depression and pessimistic views (Susteren & Al-Delaimy, 2020).
+In our research we tried to verify this hypothesis using the 2016 dataset from the European Social Survey, which contained some questions related to climate change and to its perception. Our goal was to understand whether there is a correlation between age of the respondents and attitude towards global warming.
 
 ```{r cars}
 summary(cars)
