@@ -46,9 +46,19 @@ data <- mutate(data,
 
 ## Statistical analysis
 
+```{r, echo=FALSE, paged.print=TRUE}
+library(gmodels)
+CrossTable(data$age, data$global_warming_attitude)
+```
+
 To analyze our two categorical variables we created a contingency table. As we can see from the table, the group "Between 30 and 60" is actually the one with the lowest percentage of respondents who answered "Not worried", and the one with the highest percentage of respondents who answered "Somewhat worried". The "Over 60" group is the one with the lowest percentage of respondents who answered "Worried", which is about 2% lower than respondents from other age groups.  
 
 ## Chi-square test
+
+```{r, echo=FALSE}
+options(scipen = 99 )
+chisq.test(data$age, data$global_warming_attitude, correct = FALSE)
+```
 
 Then we executed a chi-square test to know if the results are significant. The value of the chi-square is very high and the P-value very small. Therefore our results are significant and we can reject the null hypothesis of independence between the two variables.
 
