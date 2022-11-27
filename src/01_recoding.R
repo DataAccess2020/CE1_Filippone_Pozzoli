@@ -7,8 +7,8 @@ library(tidyverse)
 # We recode the variable "agea" in order to split the subjects in 3 groups.
 
 data <- mutate(data, 
-               age = ifelse(data$agea < 30, "Under 30", 
-                            ifelse(data$agea <= 60, "Between 30 and 60", "Over 60" ) ))
+               age = ifelse(data$agea < 30, "1. Under 30", 
+                            ifelse(data$agea <= 60, "2. Between 30 and 60", "3. Over 60" ) ))
 
 # We recode the variable "wrclmch" depending on the answers.
 
