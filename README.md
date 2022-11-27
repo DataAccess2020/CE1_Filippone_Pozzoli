@@ -22,7 +22,7 @@ NUMBER OF COMMITS
 
 Cristina Pozzoli: 40
  
-Lara Filippone: 18
+Lara Filippone: 19
 
 NUMBER OF ISSUES OPENED: 1
 
