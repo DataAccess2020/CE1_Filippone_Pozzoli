@@ -76,7 +76,7 @@ barplot(table(data$global_warming_attitude, data$age), beside = T,
 
 ## Conclusions
 
-Our analysis suggests that there is a correlation between age and attitude towards global warming. The group "Over 60" shows a lower level of awareness in comparison to the younger respondents. In particular the percentage of "Not worried" respondents is the highest (28.7%). Even if the differences are not so evident, the chi-square test suggests a high level of significance.
+Our analysis suggests that there is a correlation between age and attitude towards global warming. The group "Over 60" shows a lower level of awareness in comparison to the younger respondents. In particular the percentage of "Not worried" respondents is the highest (28.7%). Even if the differences are not so evident, the chi-square test suggests a high level of significance.  
 
 
 ## Bibliography
