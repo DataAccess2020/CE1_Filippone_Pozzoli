@@ -15,3 +15,21 @@ Our repository contains the following folders:
 "junk", which is for the stuff we don't need anymore;
 
 "src", which contains the scripts we used, including the final one.
+
+INSIGHTS
+
+SUMMARY OF INDIVIDUAL CONTRIBUTIONS
+
+NUMBER OF COMMITS
+
+Cristina Pozzoli: 40
+
+Lara Filippone: 17
+
+NUMBER OF ISSUES OPENED: 1
+
+NUMBER OF PULL REQUESTS OPENED: 1
+
+NUMBER OF PULL REQUESTS ACCEPTED AND MERGED: 1
+
+NUMBER OF NEW BRANCHES OPENED: 1
