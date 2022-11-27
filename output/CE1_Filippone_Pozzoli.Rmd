@@ -18,6 +18,13 @@ Some subjects may be more prone than others to experience such mental distress. 
 
 In our research we tried to verify this hypothesis using the 2016 dataset from the European Social Survey, which contained some questions related to climate change and to its perception. Our goal was to understand whether there is a correlation between age of the respondents and attitude towards global warming.
 
+
+## Our Variables 
+To carry out our analysis, we decided to use the variables "agea" and "wrclmch" from our original dataset. 
+- The variable "agea" was a quantitative variable referring to the respondents' age, which we recoded into a categorical one, called "Age". This way we divided the repondents into three groups: under 30, from 30 to 60 and over 60. 
+- The variable "wrclmch" was a categorical variable to measure the level of concern towards climate change. The possible answers ranged from 'Not at all worried' to 'Extremely worried'. We recoded it in order to have just three cathegories: 'Not worried', 'Somewhat worried', 'Worried'. 
+
+
 ```{r cars}
 
 ```
