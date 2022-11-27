@@ -18,13 +18,11 @@ Our repository contains the following folders:
 
 INSIGHTS
 
-SUMMARY OF INDIVIDUAL CONTRIBUTIONS
-
 NUMBER OF COMMITS
 
 Cristina Pozzoli: 40
  
-Lara Filippone: 17
+Lara Filippone: 18
 
 NUMBER OF ISSUES OPENED: 1
 
