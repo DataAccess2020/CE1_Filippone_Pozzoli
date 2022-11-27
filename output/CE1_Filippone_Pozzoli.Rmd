@@ -21,7 +21,9 @@ In our research we tried to verify this hypothesis using the 2016 dataset from t
 
 ## Our Variables 
 To carry out our analysis, we decided to use the variables "agea" and "wrclmch" from our original dataset. 
+
 - The variable "agea" was a quantitative variable referring to the respondents' age, which we recoded into a categorical one, called "Age". This way we divided the repondents into three groups: under 30, from 30 to 60 and over 60. 
+
 - The variable "wrclmch" was a categorical variable to measure the level of concern towards climate change. The possible answers ranged from 'Not at all worried' to 'Extremely worried'. We recoded it in order to have just three cathegories: 'Not worried', 'Somewhat worried', 'Worried'. 
 
 
@@ -31,6 +33,16 @@ data <- import("/Users/cristinapozzoli/Desktop/CE1_Filippone_Pozzoli/data_orig/E
                encoding = "UTF-8")
 ```
 
+```{r}
+library(tidyverse)
+data <- mutate(data, 
+               age = ifelse(data$agea < 30, "Under 30", 
+                            ifelse(data$agea <= 60, "Between 30 and 60", "Over 60" ) ))
+data <- mutate(data, 
+               global_warming_attitude = ifelse(data$wrclmch <=2, "Not Worried", 
+                                                ifelse(data$wrclmch == 3, "Somewhat worried", "Worried")))
+
+```
 ## Including Plots
 
 You can also embed plots, for example:
