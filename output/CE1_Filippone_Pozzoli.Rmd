@@ -50,10 +50,9 @@ To analyze our two categorical variables we created a contingency table. As we c
 
 ## Chi-square test
 
-Then we executed a chi-square test to know if the results are significant. The value of the chi-square is very high and the P-value very small. Therefore our results are significant and we can reject the null hypothesis of independece between the two variables.
+Then we executed a chi-square test to know if the results are significant. The value of the chi-square is very high and the P-value very small. Therefore our results are significant and we can reject the null hypothesis of independence between the two variables.
 
-## Including Plots
-
+## Plot
 
 ```{r, echo=FALSE}
 barplot(table(data$global_warming_attitude, data$age), beside = T, 
@@ -63,3 +62,6 @@ barplot(table(data$global_warming_attitude, data$age), beside = T,
 
 ```
 
+## Conclusions
+
+Our analysis suggests that there is a correlation between age and attitude towards global warming. The group "Over 60" shows a lower level of awareness in comparison to the younger respondents. In particular the percentage of "Not worried" respondents is the highest (28.7%). Even if the differences are not so evident, the chi-square test suggests a high level of significance.
