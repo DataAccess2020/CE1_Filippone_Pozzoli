@@ -25,8 +25,10 @@ To carry out our analysis, we decided to use the variables "agea" and "wrclmch" 
 - The variable "wrclmch" was a categorical variable to measure the level of concern towards climate change. The possible answers ranged from 'Not at all worried' to 'Extremely worried'. We recoded it in order to have just three cathegories: 'Not worried', 'Somewhat worried', 'Worried'. 
 
 
-```{r cars}
-
+```{r}
+library(rio)
+data <- import("/Users/cristinapozzoli/Desktop/CE1_Filippone_Pozzoli/data_orig/ESS8e02_2.dta",
+               encoding = "UTF-8")
 ```
 
 ## Including Plots
